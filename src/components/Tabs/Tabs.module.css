@@ -1,0 +1,78 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.root[data-orientation="vertical"] {
+  flex-direction: row;
+}
+
+.list {
+  display: flex;
+  flex-shrink: 0;
+  gap: var(--ds-space-1);
+  border-bottom: 1px solid var(--ds-color-border);
+}
+
+.root[data-orientation="vertical"] > .list {
+  flex-direction: column;
+  border-bottom: none;
+  border-right: 1px solid var(--ds-color-border);
+}
+
+.trigger {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--ds-space-2) var(--ds-space-4);
+  border: 0;
+  background: transparent;
+  font-family: var(--ds-font-family);
+  font-size: var(--ds-font-size-sm);
+  font-weight: var(--ds-font-weight-medium);
+  color: var(--ds-color-text-secondary);
+  cursor: pointer;
+}
+
+.trigger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 2px;
+  background-color: transparent;
+  transition: background-color var(--ds-duration-fast) var(--ds-ease-out);
+}
+
+.trigger:hover {
+  color: var(--ds-color-text);
+}
+
+.trigger[data-state="active"] {
+  color: var(--ds-color-primary);
+}
+
+.trigger[data-state="active"]::after {
+  background-color: var(--ds-color-primary);
+}
+
+.trigger[data-disabled] {
+  color: var(--ds-color-text-disabled);
+  cursor: not-allowed;
+}
+
+.trigger:focus-visible {
+  outline: var(--ds-focus-ring-width) solid var(--ds-focus-ring-color);
+  outline-offset: calc(var(--ds-focus-ring-offset) * -1);
+}
+
+.content {
+  padding: var(--ds-space-4) 0;
+}
+
+.content:focus-visible {
+  outline: var(--ds-focus-ring-width) solid var(--ds-focus-ring-color);
+  outline-offset: var(--ds-focus-ring-offset);
+}
