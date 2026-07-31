@@ -1,0 +1,135 @@
+.page {
+  background-color: var(--ds-color-background);
+  color: var(--ds-color-text);
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: var(--ds-z-dropdown);
+  padding: var(--ds-space-4) 0;
+  background-color: var(--ds-color-background);
+  border-bottom: 1px solid var(--ds-color-border);
+}
+
+.hero {
+  padding: var(--ds-space-16) 0;
+  background: linear-gradient(180deg, var(--ds-color-primary-subtle) 0%, transparent 60%);
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--ds-space-5);
+  text-align: center;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--ds-space-1) var(--ds-space-3);
+  border-radius: var(--ds-radius-full);
+  background-color: var(--ds-color-primary-subtle);
+  border: 1px solid var(--ds-color-primary-border);
+  color: var(--ds-color-primary);
+  font-size: var(--ds-font-size-xs);
+  font-weight: var(--ds-font-weight-medium);
+}
+
+.heroTitle {
+  max-width: 40rem;
+}
+
+.heroSubtitle {
+  max-width: 34rem;
+}
+
+.stats {
+  padding: var(--ds-space-8) 0;
+  border-bottom: 1px solid var(--ds-color-border);
+}
+
+.statsRow {
+  row-gap: var(--ds-space-4);
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ds-space-1);
+}
+
+.statValue {
+  color: var(--ds-color-text);
+}
+
+.statTooltipTrigger {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  cursor: help;
+  border-radius: var(--ds-radius-sm);
+  text-align: inherit;
+  font: inherit;
+  color: inherit;
+}
+
+.statTooltipTrigger:focus-visible {
+  outline: var(--ds-focus-ring-width) solid var(--ds-focus-ring-color);
+  outline-offset: var(--ds-focus-ring-offset);
+}
+
+.section {
+  padding: var(--ds-space-16) 0;
+}
+
+.sectionTitle {
+  margin-bottom: var(--ds-space-8);
+  text-align: center;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: var(--ds-space-5);
+}
+
+.featureCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ds-space-2);
+}
+
+.featureIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  margin-bottom: var(--ds-space-2);
+  border-radius: var(--ds-radius-lg);
+  background-color: var(--ds-color-primary-subtle);
+  color: var(--ds-color-primary);
+}
+
+.newsletterCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ds-space-1);
+}
+
+.newsletterCopy {
+  margin-bottom: var(--ds-space-4);
+}
+
+.newsletterForm {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ds-space-4);
+}
+
+.footer {
+  padding: var(--ds-space-8) 0;
+  border-top: 1px solid var(--ds-color-border);
+}
