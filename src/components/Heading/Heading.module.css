@@ -1,0 +1,31 @@
+.root {
+  margin: 0;
+  font-family: var(--ds-font-family);
+  font-weight: var(--ds-font-weight-medium);
+  line-height: var(--ds-line-height-tight);
+  color: var(--ds-color-text);
+}
+
+.sm {
+  font-size: var(--ds-font-size-md);
+}
+
+.md {
+  font-size: var(--ds-font-size-lg);
+}
+
+.lg {
+  font-size: var(--ds-font-size-xl);
+}
+
+.xl {
+  font-size: var(--ds-font-size-2xl);
+}
+
+.size2xl {
+  font-size: var(--ds-font-size-3xl);
+}
+
+.size3xl {
+  font-size: var(--ds-font-size-4xl);
+}

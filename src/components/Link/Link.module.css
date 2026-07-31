@@ -1,0 +1,25 @@
+.root {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.25em;
+  color: var(--ds-color-primary);
+  text-decoration-line: underline;
+  text-decoration-color: var(--ds-color-primary-border);
+  text-underline-offset: 2px;
+  border-radius: var(--ds-radius-sm);
+  transition: color var(--ds-duration-fast) var(--ds-ease-out);
+}
+
+.root:hover {
+  color: var(--ds-color-primary-hover);
+  text-decoration-color: currentColor;
+}
+
+.root:focus-visible {
+  outline: var(--ds-focus-ring-width) solid var(--ds-focus-ring-color);
+  outline-offset: var(--ds-focus-ring-offset);
+}
+
+.externalIcon {
+  font-size: 0.8em;
+}

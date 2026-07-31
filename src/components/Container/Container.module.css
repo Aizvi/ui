@@ -1,0 +1,25 @@
+.root {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: var(--ds-space-4);
+}
+
+.sm {
+  max-width: 40rem;
+}
+
+.md {
+  max-width: 56rem;
+}
+
+.lg {
+  max-width: 72rem;
+}
+
+.xl {
+  max-width: 88rem;
+}
+
+.full {
+  max-width: none;
+}
