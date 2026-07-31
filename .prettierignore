@@ -4,3 +4,9 @@ coverage
 node_modules
 pnpm-lock.yaml
 package-lock.json
+docs/.vitepress/cache
+docs/.vitepress/dist
+
+# Prettier normalizes markdown bullets to "-", which we deliberately avoid
+# in prose (see docs writing guidelines). Keep these hand formatted.
+docs/**/*.md

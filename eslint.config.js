@@ -8,7 +8,14 @@ import tseslint from "typescript-eslint";
 
 export default tseslint.config(
   {
-    ignores: ["dist/**", "storybook-static/**", "coverage/**", "node_modules/**"],
+    ignores: [
+      "dist/**",
+      "storybook-static/**",
+      "coverage/**",
+      "node_modules/**",
+      "docs/.vitepress/cache/**",
+      "docs/.vitepress/dist/**",
+    ],
   },
   js.configs.recommended,
   ...tseslint.configs.strictTypeChecked,
@@ -53,7 +60,13 @@ export default tseslint.config(
     },
   },
   {
-    files: ["**/*.js", "**/*.mjs", "vite.config.ts", ".storybook/**/*.ts"],
+    files: [
+      "**/*.js",
+      "**/*.mjs",
+      "vite.config.ts",
+      ".storybook/**/*.ts",
+      "docs/.vitepress/**/*.ts",
+    ],
     ...tseslint.configs.disableTypeChecked,
   },
   {
