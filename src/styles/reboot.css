@@ -1,0 +1,244 @@
+/**
+ * Reboot: a small, opinionated reset applied on top of the palette and
+ * semantic tokens. No component-specific rules live here.
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  tab-size: 4;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--ds-font-family);
+  font-size: var(--ds-font-size-md);
+  font-weight: var(--ds-font-weight-regular);
+  line-height: var(--ds-line-height-normal);
+  color: var(--ds-color-text);
+  background-color: var(--ds-color-background);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: var(--ds-font-weight-medium);
+  line-height: var(--ds-line-height-tight);
+  color: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+hr {
+  margin: var(--ds-space-4) 0;
+  border: 0;
+  border-top: 1px solid var(--ds-color-border);
+  color: inherit;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding-left: var(--ds-space-6);
+}
+
+dd {
+  margin-left: 0;
+}
+
+b,
+strong {
+  font-weight: var(--ds-font-weight-bold);
+}
+
+small {
+  font-size: var(--ds-font-size-sm);
+}
+
+sub,
+sup {
+  position: relative;
+  font-size: 0.75em;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+a {
+  color: var(--ds-color-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  color: var(--ds-color-primary-hover);
+}
+
+a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-family: var(--ds-font-family-mono);
+  font-size: 1em;
+}
+
+pre {
+  display: block;
+  margin: 0;
+  overflow: auto;
+  font-size: var(--ds-font-size-sm);
+}
+
+code {
+  font-size: var(--ds-font-size-sm);
+  color: var(--ds-color-danger-text);
+  word-wrap: break-word;
+}
+
+a > code {
+  color: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+
+table {
+  border-collapse: collapse;
+  caption-side: bottom;
+}
+
+th {
+  text-align: inherit;
+}
+
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+}
+
+label {
+  display: inline-block;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button:not(:disabled),
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled) {
+  cursor: pointer;
+}
+
+textarea {
+  resize: vertical;
+}
+
+fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+::placeholder {
+  opacity: 1;
+  color: var(--ds-color-text-muted);
+}
+
+[hidden] {
+  display: none !important;
+}
+
+/* Baseline focus-visible ring for every focusable element; components may
+   override the shape/offset but should keep the same color + width tokens. */
+:focus-visible {
+  outline: var(--ds-focus-ring-width) solid var(--ds-focus-ring-color);
+  outline-offset: var(--ds-focus-ring-offset);
+}
+
+::selection {
+  background-color: var(--ds-color-selection-background);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
