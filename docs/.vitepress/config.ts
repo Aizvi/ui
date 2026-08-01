@@ -35,7 +35,39 @@ export default defineConfig({
       },
       {
         text: "Components",
-        items: [{ text: "Overview", link: "/components/overview" }],
+        items: [
+          { text: "Overview", link: "/components/overview" },
+          {
+            text: "Plain HTML parts",
+            items: [
+              { text: "Button", link: "/components/button" },
+              { text: "Input", link: "/components/input" },
+              { text: "Textarea", link: "/components/textarea" },
+              { text: "FormField", link: "/components/formField" },
+              { text: "Link", link: "/components/link" },
+              { text: "Heading", link: "/components/heading" },
+              { text: "Text", link: "/components/text" },
+              { text: "Card", link: "/components/card" },
+              { text: "Container", link: "/components/container" },
+              { text: "Stack", link: "/components/stack" },
+            ],
+          },
+          {
+            text: "Radix Primitives",
+            items: [
+              { text: "Dialog", link: "/components/dialog" },
+              { text: "Select", link: "/components/select" },
+              { text: "Checkbox", link: "/components/checkbox" },
+              { text: "Switch", link: "/components/switch" },
+              { text: "Tabs", link: "/components/tabs" },
+              { text: "Tooltip", link: "/components/tooltip" },
+              { text: "Popover", link: "/components/popover" },
+              { text: "DropdownMenu", link: "/components/dropdownMenu" },
+              { text: "Accordion", link: "/components/accordion" },
+              { text: "Slider", link: "/components/slider" },
+            ],
+          },
+        ],
       },
     ],
 
