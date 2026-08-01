@@ -6,10 +6,6 @@ export default defineConfig({
   description:
     "An open source React design system for building modern, consistent, and accessible apps.",
   cleanUrls: true,
-  // /storybook/ is a separately built static site, copied alongside this
-  // one at deploy time (see .github/workflows/docs.yml). It is not a
-  // VitePress page, so the dead link checker can never resolve it.
-  ignoreDeadLinks: [/^\/storybook\//],
 
   head: [["link", { rel: "icon", href: "/ui/favicon.svg" }]],
 
@@ -19,7 +15,7 @@ export default defineConfig({
     nav: [
       { text: "Guide", link: "/guide/introduction" },
       { text: "Components", link: "/components/overview" },
-      { text: "Storybook", link: "/storybook/" },
+      { text: "Storybook", link: "https://aizvi.github.io/ui/storybook/" },
       { text: "npm", link: "https://www.npmjs.com/package/@aizvi/ui" },
     ],
 

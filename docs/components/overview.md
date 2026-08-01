@@ -1,6 +1,6 @@
 # Components
 
-Aizvi UI ships around twenty components. Each one has its own live, interactive page in [Storybook](/storybook/), where you can try every variant, every size, and both themes.
+Aizvi UI ships around twenty components. Each one has its own live, interactive page in [Storybook](https://aizvi.github.io/ui/storybook/), where you can try every variant, every size, and both themes.
 
 This page is a short map of what is inside the package, so you can find the right part fast.
 
@@ -38,4 +38,4 @@ These parts handle harder interaction, like focus trapping, popup positioning, a
 
 * Read the [Theming guide](/guide/theming) to learn about tokens, dark mode, and rounding.
 * Read the [Accessibility guide](/guide/accessibility) to see what every part promises.
-* Open [Storybook](/storybook/) to see every part in action, and to try both themes live.
+* Open [Storybook](https://aizvi.github.io/ui/storybook/) to see every part in action, and to try both themes live.

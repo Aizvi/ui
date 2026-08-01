@@ -9,7 +9,7 @@ hero:
     [
       { theme: brand, text: "Get Started", link: "/guide/introduction" },
       { theme: alt, text: "View Components", link: "/components/overview" },
-      { theme: alt, text: "Open Storybook", link: "/storybook/" },
+      { theme: alt, text: "Open Storybook", link: "https://aizvi.github.io/ui/storybook/" },
     ]
 
 features:
