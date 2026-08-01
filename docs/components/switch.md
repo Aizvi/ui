@@ -14,11 +14,21 @@ import { Switch } from "@aizvi/ui";
 <Switch label="Enable notifications" />
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-switch--default&viewMode=story&globals=theme:light" height="70" loading="lazy" title="Switch basic example"></iframe>
+</div>
+
 ## Without a label
 
 ```tsx
 <Switch aria-label="Enable notifications" />
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-switch--without-label&viewMode=story&globals=theme:light" height="60" loading="lazy" title="Switch without a label"></iframe>
+</div>
 
 ## Controlled
 
@@ -42,6 +52,11 @@ function ExampleSwitch() {
 <Switch label="Not available on your plan" disabled />
 <Switch label="Always on for this account" checked disabled />
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-switch--disabled-checked&viewMode=story&globals=theme:light" height="70" loading="lazy" title="Switch disabled and checked"></iframe>
+</div>
 
 ## Props
 

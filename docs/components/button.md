@@ -14,6 +14,11 @@ import { Button } from "@aizvi/ui";
 <Button variant="primary">Continue</Button>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-button--primary&viewMode=story&globals=theme:light" height="100" loading="lazy" title="Button basic example"></iframe>
+</div>
+
 ## Variants
 
 Button ships with five looks. Pick the one that matches how important the action is.
@@ -26,6 +31,11 @@ Button ships with five looks. Pick the one that matches how important the action
 <Button variant="danger">Danger</Button>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-button--all-variants&viewMode=story&globals=theme:light" height="100" loading="lazy" title="Button variants"></iframe>
+</div>
+
 Use `danger` for actions that remove or destroy something, like deleting an account.
 
 ## Sizes
@@ -36,6 +46,11 @@ Use `danger` for actions that remove or destroy something, like deleting an acco
 <Button size="lg">Large</Button>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-button--sizes&viewMode=story&globals=theme:light" height="100" loading="lazy" title="Button sizes"></iframe>
+</div>
+
 ## Loading state
 
 Set `loading` to show a small spinner and mark the button busy, without changing its width or height.
@@ -43,6 +58,11 @@ Set `loading` to show a small spinner and mark the button busy, without changing
 ```tsx
 <Button loading>Saving</Button>
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-button--loading&viewMode=story&globals=theme:light" height="100" loading="lazy" title="Button loading state"></iframe>
+</div>
 
 While `loading` is true, the button is also disabled, so a user cannot click it twice by accident.
 

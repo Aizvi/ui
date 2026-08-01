@@ -17,6 +17,11 @@ import { Container } from "@aizvi/ui";
 </Container>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-container--default&viewMode=story&globals=theme:light" height="120" loading="lazy" title="Container basic example"></iframe>
+</div>
+
 ## Sizes
 
 ```tsx
@@ -26,6 +31,11 @@ import { Container } from "@aizvi/ui";
 <Container size="xl">A wide container, good for a full page layout.</Container>
 <Container size="full">No maximum width at all.</Container>
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-container--sizes&viewMode=story&globals=theme:light" height="260" loading="lazy" title="Container sizes"></iframe>
+</div>
 
 ## Props
 

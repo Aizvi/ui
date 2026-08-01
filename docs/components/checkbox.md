@@ -14,6 +14,11 @@ import { Checkbox } from "@aizvi/ui";
 <Checkbox label="Send me product updates" />
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-checkbox--default&viewMode=story&globals=theme:light" height="70" loading="lazy" title="Checkbox basic example"></iframe>
+</div>
+
 ## Without a label
 
 If you already show your own text next to the box, or the box stands alone, leave `label` out.
@@ -21,6 +26,11 @@ If you already show your own text next to the box, or the box stands alone, leav
 ```tsx
 <Checkbox aria-label="Select this row" />
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-checkbox--without-label&viewMode=story&globals=theme:light" height="60" loading="lazy" title="Checkbox without a label"></iframe>
+</div>
 
 ## Controlled
 
@@ -46,12 +56,22 @@ Pass `"indeterminate"` as the `checked` value to show a mixed state, which is us
 <Checkbox label="Select all" checked="indeterminate" />
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-checkbox--indeterminate&viewMode=story&globals=theme:light" height="70" loading="lazy" title="Checkbox indeterminate state"></iframe>
+</div>
+
 ## Disabled
 
 ```tsx
 <Checkbox label="Not available right now" disabled />
 <Checkbox label="Already agreed" checked disabled />
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-checkbox--disabled-checked&viewMode=story&globals=theme:light" height="70" loading="lazy" title="Checkbox disabled and checked"></iframe>
+</div>
 
 ## Props
 

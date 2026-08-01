@@ -14,6 +14,11 @@ import { Input } from "@aizvi/ui";
 <Input placeholder="Enter your name" />
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-input--default&viewMode=story&globals=theme:light" height="90" loading="lazy" title="Input basic example"></iframe>
+</div>
+
 Input is almost always used inside a [FormField](./formField), so it gets a real label.
 
 ```tsx
@@ -30,6 +35,11 @@ Input is almost always used inside a [FormField](./formField), so it gets a real
 <Input size="lg" placeholder="Large" />
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-input--sizes&viewMode=story&globals=theme:light" height="90" loading="lazy" title="Input sizes"></iframe>
+</div>
+
 ## Invalid state
 
 Set `invalid` to style the input as an error and set `aria-invalid` for you.
@@ -37,6 +47,11 @@ Set `invalid` to style the input as an error and set `aria-invalid` for you.
 ```tsx
 <Input invalid defaultValue="not-an-email" />
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-input--invalid&viewMode=story&globals=theme:light" height="90" loading="lazy" title="Input invalid state"></iframe>
+</div>
 
 When Input is used inside FormField, and FormField is given an `error` message, this happens automatically. You do not need to set `invalid` by hand in that case.
 
@@ -54,6 +69,11 @@ When Input is used inside FormField, and FormField is given an `error` message, 
 ```tsx
 <Input disabled defaultValue="Cannot be changed" />
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-input--disabled&viewMode=story&globals=theme:light" height="90" loading="lazy" title="Input disabled state"></iframe>
+</div>
 
 ## Props
 

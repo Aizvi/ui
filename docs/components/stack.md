@@ -18,6 +18,11 @@ import { Stack } from "@aizvi/ui";
 </Stack>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-stack--column&viewMode=story&globals=theme:light" height="180" loading="lazy" title="Stack basic example, column"></iframe>
+</div>
+
 By default, Stack lines up its children in a column.
 
 ## Row direction
@@ -30,6 +35,11 @@ By default, Stack lines up its children in a column.
 </Stack>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-stack--row&viewMode=story&globals=theme:light" height="100" loading="lazy" title="Stack row direction"></iframe>
+</div>
+
 ## Align and justify
 
 ```tsx
@@ -38,6 +48,11 @@ By default, Stack lines up its children in a column.
   <div>Right</div>
 </Stack>
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-stack--justify-between&viewMode=story&globals=theme:light" height="100" loading="lazy" title="Stack justify between"></iframe>
+</div>
 
 * `align` controls the cross axis, meaning up and down in a row, or left and right in a column.
 * `justify` controls the main axis, meaning left and right in a row, or up and down in a column.

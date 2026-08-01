@@ -29,6 +29,11 @@ import { Tabs } from "@aizvi/ui";
 </Tabs>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-tabs--default&viewMode=story&globals=theme:light" height="180" loading="lazy" title="Tabs basic example"></iframe>
+</div>
+
 ## The parts
 
 * `Tabs`, the root part. It holds which tab is active, either on its own through `defaultValue`, or through the `value` and `onValueChange` props.
@@ -69,6 +74,11 @@ Pass `orientation="vertical"` to lay the tab list out as a column instead of a r
   <Tabs.Content value="billing">Billing settings</Tabs.Content>
 </Tabs>
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-tabs--vertical&viewMode=story&globals=theme:light" height="160" loading="lazy" title="Tabs vertical orientation"></iframe>
+</div>
 
 ## Disabled tab
 

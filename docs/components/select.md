@@ -21,6 +21,11 @@ import { Select } from "@aizvi/ui";
 </Select>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview, click the field to open it</div>
+  <iframe src="../storybook/iframe.html?id=components-select--default&viewMode=story&globals=theme:light" height="320" loading="lazy" title="Select basic example"></iframe>
+</div>
+
 ## The parts
 
 * `Select`, the root part. It holds the selected value, either on its own or through the `value` and `onValueChange` props.
@@ -73,6 +78,11 @@ Use `Select.Group`, `Select.Label`, and `Select.Separator` to organize a longer 
 </Select>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview, click the field to open it</div>
+  <iframe src="../storybook/iframe.html?id=components-select--with-groups&viewMode=story&globals=theme:light" height="360" loading="lazy" title="Select with groups and labels"></iframe>
+</div>
+
 ## Disabled
 
 ```tsx
@@ -84,6 +94,11 @@ Use `Select.Group`, `Select.Label`, and `Select.Separator` to organize a longer 
 </Select>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-select--disabled&viewMode=story&globals=theme:light" height="120" loading="lazy" title="Select disabled"></iframe>
+</div>
+
 A single item can also be disabled on its own, while the rest of the list stays open for picking.
 
 ```tsx
@@ -91,6 +106,11 @@ A single item can also be disabled on its own, while the rest of the list stays 
   Team, coming soon
 </Select.Item>
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview, click the field to open it</div>
+  <iframe src="../storybook/iframe.html?id=components-select--with-disabled-item&viewMode=story&globals=theme:light" height="320" loading="lazy" title="Select with a disabled item"></iframe>
+</div>
 
 ## Props
 

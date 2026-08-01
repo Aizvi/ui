@@ -14,6 +14,11 @@ import { Textarea } from "@aizvi/ui";
 <Textarea placeholder="Write your message" />
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-textarea--default&viewMode=story&globals=theme:light" height="140" loading="lazy" title="Textarea basic example"></iframe>
+</div>
+
 Like Input, Textarea is often used inside a [FormField](./formField).
 
 ```tsx
@@ -28,11 +33,21 @@ Like Input, Textarea is often used inside a [FormField](./formField).
 <Textarea invalid defaultValue="Too short" />
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-textarea--invalid&viewMode=story&globals=theme:light" height="140" loading="lazy" title="Textarea invalid state"></iframe>
+</div>
+
 ## Disabled
 
 ```tsx
 <Textarea disabled defaultValue="Cannot be changed" />
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-textarea--disabled&viewMode=story&globals=theme:light" height="140" loading="lazy" title="Textarea disabled state"></iframe>
+</div>
 
 A disabled Textarea can no longer be resized by the user.
 

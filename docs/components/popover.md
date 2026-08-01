@@ -24,6 +24,11 @@ import { Popover } from "@aizvi/ui";
 </Popover>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview, click the button to open it</div>
+  <iframe src="../storybook/iframe.html?id=components-popover--default&viewMode=story&globals=theme:light" height="220" loading="lazy" title="Popover basic example"></iframe>
+</div>
+
 ## The parts
 
 * `Popover`, the root part. It holds the open state, either on its own or through the `open` and `onOpenChange` props.
@@ -49,6 +54,11 @@ import { Popover } from "@aizvi/ui";
   </Popover.Content>
 </Popover>
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview, click the button to open it</div>
+  <iframe src="../storybook/iframe.html?id=components-popover--with-close&viewMode=story&globals=theme:light" height="220" loading="lazy" title="Popover with a close button"></iframe>
+</div>
 
 ## Controlled open state
 

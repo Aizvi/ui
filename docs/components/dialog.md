@@ -30,6 +30,11 @@ import { Dialog } from "@aizvi/ui";
 </Dialog>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview, click the button to open it</div>
+  <iframe src="../storybook/iframe.html?id=components-dialog--default&viewMode=story&globals=theme:light" height="420" loading="lazy" title="Dialog basic example"></iframe>
+</div>
+
 ## The parts
 
 Dialog is made of a few small parts that work together. You only need the ones your dialog actually uses.
@@ -80,6 +85,11 @@ function ExampleDialog() {
   </Dialog.Footer>
 </Dialog.Content>
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview, click the button to open it</div>
+  <iframe src="../storybook/iframe.html?id=components-dialog--without-close-button&viewMode=story&globals=theme:light" height="420" loading="lazy" title="Dialog without close button"></iframe>
+</div>
 
 ## Props
 

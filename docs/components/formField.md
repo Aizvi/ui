@@ -16,6 +16,11 @@ import { FormField, Input } from "@aizvi/ui";
 </FormField>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-formfield--default&viewMode=story&globals=theme:light" height="120" loading="lazy" title="FormField basic example"></iframe>
+</div>
+
 ## Required fields
 
 ```tsx
@@ -23,6 +28,11 @@ import { FormField, Input } from "@aizvi/ui";
   <Input type="email" />
 </FormField>
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-formfield--required&viewMode=story&globals=theme:light" height="120" loading="lazy" title="FormField required"></iframe>
+</div>
 
 This shows a small required mark next to the label, and it also passes `required` down to the control itself.
 
@@ -33,6 +43,11 @@ This shows a small required mark next to the label, and it also passes `required
   <Input type="email" defaultValue="not-an-email" />
 </FormField>
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-formfield--with-error&viewMode=story&globals=theme:light" height="120" loading="lazy" title="FormField error state"></iframe>
+</div>
 
 When `error` is set, FormField marks the control invalid for you, and it shows the error message instead of the hint, in a way a screen reader will announce right away.
 

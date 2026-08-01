@@ -14,6 +14,11 @@ import { Heading } from "@aizvi/ui";
 <Heading level={1}>Welcome to Aizvi UI</Heading>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-heading--default&viewMode=story&globals=theme:light" height="90" loading="lazy" title="Heading basic example"></iframe>
+</div>
+
 ## Level and size are separate
 
 `level` picks the real HTML tag, `h1` through `h6`. `size` picks how big the text looks. If you do not set `size`, Heading picks a sensible size for you, based on the level.
@@ -23,6 +28,11 @@ import { Heading } from "@aizvi/ui";
   A big, important heading that should look small
 </Heading>
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-heading--size-independent-of-level&viewMode=story&globals=theme:light" height="90" loading="lazy" title="Heading size independent of level"></iframe>
+</div>
 
 This is useful when your page structure needs an `h2`, for example, but your design wants it to look small and quiet.
 
@@ -36,6 +46,11 @@ This is useful when your page structure needs an `h2`, for example, but your des
 <Heading level={5}>Level 5</Heading>
 <Heading level={6}>Level 6</Heading>
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-heading--all-levels&viewMode=story&globals=theme:light" height="320" loading="lazy" title="Heading all levels"></iframe>
+</div>
 
 ## Props
 

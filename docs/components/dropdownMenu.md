@@ -24,6 +24,11 @@ import { DropdownMenu } from "@aizvi/ui";
 </DropdownMenu>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview, click the button to open it</div>
+  <iframe src="../storybook/iframe.html?id=components-dropdownmenu--default&viewMode=story&globals=theme:light" height="260" loading="lazy" title="DropdownMenu basic example"></iframe>
+</div>
+
 ## The parts
 
 * `DropdownMenu`, the root part. It holds the open state, either on its own or through the `open` and `onOpenChange` props.
@@ -59,6 +64,11 @@ function ExampleMenu() {
 }
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview, click the button to open it</div>
+  <iframe src="../storybook/iframe.html?id=components-dropdownmenu--with-groups&viewMode=story&globals=theme:light" height="320" loading="lazy" title="DropdownMenu with a checkbox item"></iframe>
+</div>
+
 ## Radio items
 
 ```tsx
@@ -82,6 +92,11 @@ function ExampleSortMenu() {
   );
 }
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview, click the button to open it</div>
+  <iframe src="../storybook/iframe.html?id=components-dropdownmenu--with-groups&viewMode=story&globals=theme:light" height="320" loading="lazy" title="DropdownMenu with radio items"></iframe>
+</div>
 
 ## Disabled item
 

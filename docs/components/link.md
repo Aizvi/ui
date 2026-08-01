@@ -14,6 +14,11 @@ import { Link } from "@aizvi/ui";
 <Link href="/about">About us</Link>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-link--default&viewMode=story&globals=theme:light" height="70" loading="lazy" title="Link basic example"></iframe>
+</div>
+
 ## External links
 
 Set `external` to show a small arrow mark next to the link text, and to open the link safely in a new tab.
@@ -23,6 +28,11 @@ Set `external` to show a small arrow mark next to the link text, and to open the
   Read the full report
 </Link>
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-link--external&viewMode=story&globals=theme:light" height="70" loading="lazy" title="Link external example"></iframe>
+</div>
 
 When `external` is true, Link sets `target="_blank"` and `rel="noopener noreferrer"` for you, unless you already set your own `target` or `rel`. This stops the new page from being able to control your page through `window.opener`, which is a common security problem with links that use `target="_blank"`.
 

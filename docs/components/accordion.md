@@ -27,6 +27,11 @@ import { Accordion } from "@aizvi/ui";
 </Accordion>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-accordion--single-collapsible&viewMode=story&globals=theme:light" height="260" loading="lazy" title="Accordion basic example"></iframe>
+</div>
+
 ## The parts
 
 * `Accordion`, the root part. Its `type` prop decides whether one or many items can be open at once.
@@ -47,6 +52,11 @@ Set `type="single"` so only one item can be open at a time, opening a new one cl
 </Accordion>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-accordion--single-collapsible&viewMode=story&globals=theme:light" height="260" loading="lazy" title="Accordion single collapsible"></iframe>
+</div>
+
 Set `type="multiple"` to let several items stay open together.
 
 ```tsx
@@ -61,6 +71,11 @@ Set `type="multiple"` to let several items stay open together.
   </Accordion.Item>
 </Accordion>
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-accordion--multiple&viewMode=story&globals=theme:light" height="260" loading="lazy" title="Accordion multiple"></iframe>
+</div>
 
 ## Controlled
 

@@ -14,6 +14,11 @@ import { Slider } from "@aizvi/ui";
 <Slider defaultValue={[50]} min={0} max={100} step={1} aria-label="Volume" />
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-slider--default&viewMode=story&globals=theme:light" height="80" loading="lazy" title="Slider basic example"></iframe>
+</div>
+
 ## Controlled
 
 ```tsx
@@ -41,6 +46,11 @@ Pass an array with two numbers to get two thumbs on the same track, useful for p
 <Slider defaultValue={[20, 80]} min={0} max={100} step={1} aria-label="Price range" />
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-slider--range&viewMode=story&globals=theme:light" height="80" loading="lazy" title="Slider range with two thumbs"></iframe>
+</div>
+
 ## Step size
 
 ```tsx
@@ -52,6 +62,11 @@ Pass an array with two numbers to get two thumbs on the same track, useful for p
 ```tsx
 <Slider defaultValue={[30]} disabled aria-label="Not adjustable right now" />
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-slider--disabled&viewMode=story&globals=theme:light" height="80" loading="lazy" title="Slider disabled"></iframe>
+</div>
 
 ## Orientation
 

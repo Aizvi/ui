@@ -1,0 +1,22 @@
+.preview {
+  margin: 16px 0;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.preview iframe {
+  display: block;
+  width: 100%;
+  border: 0;
+}
+
+.preview-label {
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--vp-c-text-2);
+  background: var(--vp-c-bg-soft);
+  border-bottom: 1px solid var(--vp-c-divider);
+}

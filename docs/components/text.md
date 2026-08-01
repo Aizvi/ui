@@ -14,6 +14,11 @@ import { Text } from "@aizvi/ui";
 <Text>This is a normal paragraph of text.</Text>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-text--default&viewMode=story&globals=theme:light" height="70" loading="lazy" title="Text basic example"></iframe>
+</div>
+
 ## Choosing the element
 
 ```tsx
@@ -31,6 +36,11 @@ import { Text } from "@aizvi/ui";
 <Text size="xl">Extra large</Text>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-text--sizes&viewMode=story&globals=theme:light" height="200" loading="lazy" title="Text sizes"></iframe>
+</div>
+
 ## Weight and color
 
 ```tsx
@@ -39,6 +49,11 @@ import { Text } from "@aizvi/ui";
 <Text color="danger">An error message</Text>
 <Text color="success">A success message</Text>
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-text--colors&viewMode=story&globals=theme:light" height="150" loading="lazy" title="Text weight and color"></iframe>
+</div>
 
 ## Truncating long text
 
@@ -49,6 +64,11 @@ Set `truncate` to cut off text with an ellipsis instead of wrapping it onto a ne
   <Text truncate>A very long piece of text that will not fit on one line.</Text>
 </div>
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-text--truncated&viewMode=story&globals=theme:light" height="70" loading="lazy" title="Text truncated"></iframe>
+</div>
 
 ## Props
 

@@ -19,6 +19,18 @@ import { Tooltip } from "@aizvi/ui";
 </Tooltip>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview, hover or focus the button to see it</div>
+  <iframe src="../storybook/iframe.html?id=components-tooltip--default&viewMode=story&globals=theme:light" height="120" loading="lazy" title="Tooltip basic example"></iframe>
+</div>
+
+Here is the same tooltip shown already open, so you can see the popup without needing to hover.
+
+<div class="preview">
+  <div class="preview-label">Live preview, already open</div>
+  <iframe src="../storybook/iframe.html?id=components-tooltip--open-by-default&viewMode=story&globals=theme:light" height="120" loading="lazy" title="Tooltip open by default"></iframe>
+</div>
+
 ## The parts
 
 * `Tooltip`, the root part. It already includes a Radix Tooltip Provider internally, so you never need to add one yourself, and every Tooltip on the page shares the same open and close timing.

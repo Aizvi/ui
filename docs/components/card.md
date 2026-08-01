@@ -17,12 +17,22 @@ import { Card } from "@aizvi/ui";
 </Card>
 ```
 
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-card--default&viewMode=story&globals=theme:light" height="140" loading="lazy" title="Card basic example"></iframe>
+</div>
+
 ## Variants
 
 ```tsx
 <Card variant="outlined">A card with a border.</Card>
 <Card variant="elevated">A card with a soft shadow instead of a border.</Card>
 ```
+
+<div class="preview">
+  <div class="preview-label">Live preview</div>
+  <iframe src="../storybook/iframe.html?id=components-card--elevated&viewMode=story&globals=theme:light" height="140" loading="lazy" title="Card elevated variant"></iframe>
+</div>
 
 ## Padding
 
